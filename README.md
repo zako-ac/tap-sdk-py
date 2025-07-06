@@ -25,6 +25,7 @@ Here is some example.
 
 ```py
 import io
+import asyncio
 from zakotap import Client, ClientData, HelloResponse, AudioRequest
 
 streamFile = io.BytesIO(b"test audio data")
