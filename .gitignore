@@ -4,6 +4,4 @@ __pycache__/**
 dist/**
 .env
 *.toml
-.python-version
 setup.py
-uv.lock
