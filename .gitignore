@@ -1,6 +1,9 @@
 *.pyc
+*__pycache__
 __pycache__/**
 .venv
 dist/**
 .env
 *.toml
+*.egg-info
+*.egg-info/**
