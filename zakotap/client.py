@@ -17,7 +17,7 @@ class Client():
         self.zakoEndpoint = clientData.get('zakoEndpoint')
         self.clientEvent = EmitterManager()
         if not self.zakoEndpoint:
-            self.zakoEndpoint = "zako.ac"
+            self.zakoEndpoint = "https://api.zako.ac"
 
     def connect(self):
         asyncio.run(open(self.zakoEndpoint, self.name, self.token, BaseTabHubVersion, self.clientEvent))
