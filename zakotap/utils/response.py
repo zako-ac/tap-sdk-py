@@ -1,5 +1,5 @@
 import requests
-from zakoTap.utils._type import ErrorMessage
+from ._type import ErrorMessage
 
 async def sendAudioData(url: str, id:str, audioStream):
     okUrl = f"{url}/data/{id}/ok"

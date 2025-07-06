@@ -2,7 +2,7 @@ import websockets
 import json
 from .event import EmitterManager
 from .response import sendPing
-from zakoTap.utils._type import HelloData, HelloResponse, VersionType, AudioRequest
+from ._type import HelloData, HelloResponse, VersionType, AudioRequest
 
 async def open(url: str, name: str, token: str, version: VersionType, Event: EmitterManager):
     wsUrl = url.replace("http", "ws")
